@@ -1,0 +1,23 @@
+<convert2exe>
+    <uacLevel>asInvoker</uacLevel>
+    <launcher>C:\Users\karthik ganjam\AppData\Local\Adersoft\Vbsedit\ExecutableIcons\html64c_13eb75cdfb5bd2a6e7f73196dce549e5.exe</launcher>
+    <dependencies>
+        <dependency>images\gk.png</dependency>
+        <dependency>images\img.png</dependency>
+        <dependency>prgm1.js</dependency>
+        <dependency>prgm2.js</dependency>
+    </dependencies>
+    <createmsi>yes</createmsi>
+    <msi>
+        <targetFolder>C:\vscode_workspace\html_css_javascript\mywebpage_msi</targetFolder>
+        <version>1.0.0.3</version>
+        <description>MSI package for Mywebpage</description>
+        <productName>Mywebpage</productName>
+        <manufacturer>karthik ganjam</manufacturer>
+        <scope>perUser</scope>
+        <upgradeCode>{778D7615-59CC-4A4F-8DFB-80904C837A0B}</upgradeCode>
+        <desktopShortcut>yes</desktopShortcut>
+        <startmenuShortcut>yes</startmenuShortcut>
+        <dependencies />
+    </msi>
+</convert2exe>
